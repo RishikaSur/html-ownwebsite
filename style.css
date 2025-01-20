@@ -1,0 +1,62 @@
+#title, #footer{
+    background-image: url(./Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFB200;
+    font-family: "Kaushan Script", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.profile-pic{
+    border-radius: 50%;
+}
+
+.btn-primary {
+    background-color: #EB5B00; /* Custom background color */
+    border-color: #EB5B00;    /* Custom border color */
+}
+
+.btn-primary:hover {
+    background-color: #C70039; /* Custom hover color */
+    border-color: #C70039;
+}
+
+a {
+    color: white;        /* Set text color to white */
+    text-decoration: none; /* Remove the underline */
+    cursor: default;     /* Change cursor to default (not pointer) */
+}
+
+#non-title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: normal;
+}
+#resume{
+    background-color: #f7fbb4;
+}
+
+.left{
+    margin-top: 30px;
+}
+
+#project{
+    background-color: #A81374;
+}
+#project > div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+}
+#project > h1{
+    color: white;
+}
+.card{
+    background-color: #f7fbb4;
+}
+
+#contact{
+    background-color: #DA498D90;
+}
